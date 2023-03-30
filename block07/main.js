@@ -10,7 +10,7 @@ Add comments throughout the code to explain each step in the process.
 
 //create a string for the user saying: You have received this message because you have been choosen to open an important vault.
 
-const x = "You have received this message because you have been chooose to open an important vault. Here is the secret combination:";
+const x = "You have received this message because you have been chooosen to open an important vault. Here is the secret combination:";
 
 alert (x);
 
