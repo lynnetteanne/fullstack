@@ -1,0 +1,138 @@
+/*background*/
+.container {  
+    display:flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.square {
+    flex-shrink: 1;
+    flex: 1;
+    height: 100px;
+    background-color: teal;
+    
+}
+
+.rectangle {
+    background-color: teal;
+    width: 800px;
+    height: 200px;
+}
+
+/*circles*/
+.circle1 {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    z-index: 2;
+    left: 15%;
+    top: 21px;
+}
+
+.circle2 {
+    background-color: pink;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5%;
+    top: 11px;
+}
+
+.circle3 {
+    background-color: pink;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5%;
+    top: 95px;
+}
+
+.circle4 {
+    background-color: pink;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 27%;
+    top: 90px;
+}
+
+.circle5 {
+    background-color: yellow;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    top: 165px;
+}
+
+.circle6 {
+    background-color: pink;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 40%;
+    top: 35px;
+}
+/*triangles*/
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-bottom: 235px solid green;
+    border-left: 100px solid transparent;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 87px;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-right: 70px solid transparent;
+    border-bottom: 130px solid yellowgreen;
+    border-left: 70px solid transparent;
+    z-index: 2;
+    position: absolute;
+    left: 70%;
+    top: 194px;
+}
+/* people icons*/
+.people {
+    z-index: 2;
+    position: absolute;
+    background-color: black;
+    left: 20%;
+    top: 200px;
+    width: 0;
+    height: 0;
+
+}
+
+h3 {
+    color: darkred;
+}
+
+p {
+    color: grey;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+  

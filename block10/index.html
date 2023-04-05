@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="formsubmitted" href="formsubmitted.html">
+    <script src="https://kit.fontawesome.com/fc0d19f6a3.js" crossorigin="anonymous"></script>
+    <title>Picasso</title>
 </head>
 <body>
-    /* Use grid or flex.
+ <!--  Use grid or flex.
     Use three various types of CSS units.
     Make sure it works on all screen sizes. Some people will not be able to attend the gallery but they have a virtual gallery room.
     Desktop: 1680 x 1050
@@ -18,8 +20,69 @@
     Use common shorthands where applicable.
     Add an HTML form to collect the names and emails of interested visitors. 
     It should have a submit button and the form's action will take the user to another HTML page.
-    Please upload your files (Picasso.html, external.css, formsubmitted.html) to Canvas. */
+    Please upload your files (Picasso.html, external.css, formsubmitted.html) to Canvas.--> 
+
+    <!--background of teal squares and rectangle-->
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="rectangle"></div>
+    </div>
+
+    <!--pink and yellow cirles-->
+    <div class="circles">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+        <div class="circle6"></div>
+    </div>
+
+    <div>
+        <div class="triangle1"></div>
+        <div class="triangle2"></div>
+    </div>
 
     
+   <div class="people">
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+        <i class="fa-solid fa-person"></i>
+    </div>
+
+    <h3>
+        Interested in purchasing? 
+    </h3>
+
+    <p>
+        Please fill in the form below:
+    </p>
+
+      <form action="formsubmitted.html">
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="John">
+        </div>
+
+        <div>   
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Smith">
+        </div>
+    
+    <button type="button">
+        Submit
+    </button>
+
+      </form>
 </body>
 </html>
