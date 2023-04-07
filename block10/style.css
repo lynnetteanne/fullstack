@@ -123,10 +123,12 @@
 
 h3 {
     color: darkred;
+    text-align: center;
 }
 
 p {
     color: grey;
+    text-align: center;
 }
 
 form {
